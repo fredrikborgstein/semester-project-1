@@ -107,8 +107,8 @@ The Community Science Museum is designed to spark curiosity and excitement about
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/community-science-museum.git
-   cd community-science-museum
+   git clone [https://github.com/yourusername/community-science-museum.git](https://github.com/fredrikborgstein/semester-project-1)
+   cd semester-project-1
 2. **Open the Project**  
    Open `index.html` in your browser or use a local server (e.g., VSCode Live Server).  
 
@@ -139,8 +139,44 @@ We welcome feedback and collaboration! Feel free to fork this repository, create
 
 ## 🔗 Links
 
-- [Live Website (Demo Link)](https://yourusername.github.io/community-science-museum)  
+- [Live Website (Demo Link)](#)  
+- [Project Planning Board](2. **Open the Project**  
+   Open `index.html` in your browser or use a local server (e.g., VSCode Live Server).  
+
+3. **Development**  
+   Make edits to the HTML/CSS files as needed and push updates to the repository.  
+
+---
+
+## 📝 Project Report
+
+A detailed project report will include:  
+- **What went well**: Highlights of successful aspects of the development process.  
+- **What didn’t go well**: Challenges faced and solutions applied.  
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.  
+
+---
+
+## 🤝 Contributing
+
+We welcome feedback and collaboration! Feel free to fork this repository, create a branch, and submit a pull request.  
+
+---
+
+## 🔗 Links
+
+- [Live Website (Demo Link)]()
 - [Project Planning Board](https://trello.com/yourprojectboard)  
+
+---
+
+Let’s create a fun, accessible, and exciting website for the Community Science Museum! 🌟
+)  
 
 ---
 
