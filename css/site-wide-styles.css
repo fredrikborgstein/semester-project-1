@@ -54,6 +54,7 @@
     font-style: normal;
 }
 
+/* Main - site wide styling */
 
 * {
     margin: 0;
@@ -113,6 +114,47 @@ header {
         }
     }
 }
+
+.hero-section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.hero-text {
+    font-size: 3rem;
+    color: white;
+    margin: 0 auto;
+    text-shadow: 1px 0 0 black;
+}
+
+.hero-button {
+    font-size: 1.3rem;
+    color: white;
+    margin: 0 auto;
+}
+
+
+/* TODO move these to components, with the fonts */
+
+.regular-button {
+    background-color: #BBE853;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px 60px;
+    filter: drop-shadow(-1px -1px 9px #000000);
+}
+
+.regular-button:hover {
+    cursor: pointer;
+    background-color: #BBE222;
+    filter: drop-shadow(2px 2px 12px #000000);
+}
+
+
 
 
 
