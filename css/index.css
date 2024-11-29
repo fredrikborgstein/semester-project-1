@@ -2,6 +2,40 @@
 /* Styling for index.html */
 
 .hero-section {
+    position: relative;
     background: url("../assets/images/science2.jpg") no-repeat center/cover;
     background-position: center 46%;
 }
+
+/* Adding a filter on top of the bg-image to ensure the text is readable */
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero-section > * {
+    position: relative;
+    z-index: 2;
+}
+
+#events-section {
+    background: var(--var-blue-bg);
+    color: white;
+    min-height: 40vh;
+
+    h2 {
+        font-size: 2.4rem;
+        text-align:center;
+        padding-top: 40px;
+        padding-bottom: 45px;
+    }
+}
+
+

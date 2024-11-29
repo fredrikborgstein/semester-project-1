@@ -1,3 +1,14 @@
+/* Color variables */
+
+:root {
+    --var-blue-bg: #111551;
+    --var-salmon-bg: #B27070;
+    --var-card-green: #A3D900;
+    --var-card-blue: #4A90E2;
+    --var-card-purple: #7A3EB1;
+    --var-card-yellow: #FFD500;
+}
+
 /* Font classes */
 
 .merriweather-light {
@@ -133,8 +144,15 @@ header {
 
 .hero-button {
     font-size: 1.3rem;
-    color: white;
+    color: black;
     margin: 0 auto;
+    transition: font-size 0.2s ease;
+    height: 55px;
+    text-decoration: none;
+}
+
+.hero-button:hover {
+    font-size: 1.4rem;
 }
 
 
