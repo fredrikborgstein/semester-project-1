@@ -286,3 +286,55 @@ h2 {
     }
   }
 }
+
+/* Educational Section */
+
+#educational-section {
+  background: var(--var-salmon-bg);
+
+  h2 {
+    color: white;
+    padding-bottom: 40px;
+  }
+
+  #educational-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 80%;
+
+    .edu-side {
+      with: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+
+      img {
+        max-width: 600px;
+        border-radius: 10px;
+      }
+
+      h3 {
+        font-size: 1.8rem;
+        text-align: center;
+        padding-top: 20px;
+      }
+
+      p {
+        font-size: 1rem;
+        padding: 20px 30px;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        padding: 12px 50px;
+        width: 30%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
