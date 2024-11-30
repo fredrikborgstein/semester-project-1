@@ -28,13 +28,117 @@
 #events-section {
     background: var(--var-blue-bg);
     color: white;
-    min-height: 40vh;
 
     h2 {
         font-size: 2.4rem;
         text-align:center;
         padding-top: 40px;
         padding-bottom: 45px;
+    }
+}
+
+#event-cards-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 40px auto;
+    padding: 100px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.event-card {
+    height: 240px;
+    width: 320px;
+    position: relative;
+
+    border: 1px solid black;
+    filter: drop-shadow(-1px -1px 9px #000000);
+
+    &.event-card-1 {
+        background: var(--var-card-purple);
+    }
+    &.event-card-2 {
+        background: var(--var-card-blue);
+    }
+    &.event-card-3 {
+        background: var(--var-card-yellow);
+    }
+    &.event-card-4 {
+        background: var(--var-card-green);
+    }
+}
+
+.event-card-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: absolute;
+    transform: translate(60%, -50%);
+
+    &.event-1 {
+        background: url("../assets/images/science3.jpg") no-repeat center/cover;
+    }
+    &.event-2 {
+        background: url("../assets/images/image2.jpg") no-repeat center/cover;
+    }
+    &.event-3 {
+        background: url("../assets/images/dinosaur1.jpg") no-repeat center/cover;
+    }
+    &.event-4 {
+        background: url("../assets/images/children1.jpg") no-repeat center/cover;
+    }
+}
+
+.event-card-arrow {
+    width:100px;
+    height: 80px;
+    position: absolute;
+    transform: translateY(295%) translateX(110%) rotate(180deg);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+    &.arrow-1 {
+        background: var(--var-card-purple);
+    }
+    &.arrow-2 {
+        background: var(--var-card-blue);
+    }
+    &.arrow-3 {
+        background: var(--var-card-yellow);
+    }
+    &.arrow-4 {
+        background: var(--var-card-green);
+    }
+}
+
+.event-card-info {
+    position: absolute;
+    transform: translateY(78%);
+
+    h3 {
+      text-align: center;
+        padding-bottom: 4px;
+    }
+    p {
+        padding:10px 10px;
+    }
+    &.event-info-1 {
+        color: black;
+    }
+}
+
+.event-card-footer {
+    position: absolute;
+    bottom: 2px;
+    left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 90px;
+    font-size: 0.9rem;
+
+    &.event-footer-1 {
+        color: black;
     }
 }
 
