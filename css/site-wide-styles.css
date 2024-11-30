@@ -1,178 +1,174 @@
 /* Color variables */
 
 :root {
-    --var-blue-bg: #111551;
-    --var-salmon-bg: #B27070;
-    --var-card-green: #A3D900;
-    --var-card-blue: #4A90E2;
-    --var-card-purple: #7A3EB1;
-    --var-card-yellow: #FFD500;
+  --var-blue-bg: #111551;
+  --var-salmon-bg: #b27070;
+  --var-card-green: #a3d900;
+  --var-card-blue: #4a90e2;
+  --var-card-purple: #7a3eb1;
+  --var-card-yellow: #ffd500;
 }
 
 /* Font classes */
 
 .merriweather-light {
-    font-family: "Merriweather", serif;
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .merriweather-regular {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .merriweather-bold {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: normal;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .merriweather-black {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: normal;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .merriweather-light-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 300;
-    font-style: italic;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
 }
 
 .merriweather-regular-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: italic;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .merriweather-bold-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .merriweather-black-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: italic;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
 }
 
 .jockey-one-regular {
-    font-family: "Jockey One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Main - site wide styling */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-    max-height: 150px;
-    width: 80%;
-    margin: 0 auto;
+  max-height: 150px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  gap: 30px;
+
+  #header-info {
     display: flex;
-    justify-content: space-between;
-    align-content: center;
-    gap: 30px;
+    max-height: 150px;
 
-    #header-info {
-        display: flex;
-        max-height: 150px;
-
-        #header-logo img{
-            width: 80px;
-            justify-self: flex-start;
-            margin-top: 20px;
-        }
-
-        p {
-            margin: 40px 20px;
-            font-size: 2rem;
-        }
+    #header-logo img {
+      width: 80px;
+      justify-self: flex-start;
+      margin-top: 20px;
     }
 
-    #header-nav {
-        justify-self: flex-end;
-        padding-left: 40px;
-
-        #header-nav-list {
-            display: flex;
-            align-content: center;
-            margin-top: 50px;
-            gap: 20px;
-
-            li {
-                list-style: none;
-
-                a {
-                    text-decoration: none;
-                    color: black;
-                    font-size: 1.3rem;
-                    padding: 8px 10px;
-                }
-
-                a:hover {
-                    text-shadow: 1px 0 0 currentColor;
-                }
-            }
-        }
+    p {
+      margin: 40px 20px;
+      font-size: 2rem;
     }
+  }
+
+  #header-nav {
+    justify-self: flex-end;
+    padding-left: 40px;
+
+    #header-nav-list {
+      display: flex;
+      align-content: center;
+      margin-top: 50px;
+      gap: 20px;
+
+      li {
+        list-style: none;
+
+        a {
+          text-decoration: none;
+          color: black;
+          font-size: 1.3rem;
+          padding: 8px 10px;
+        }
+
+        a:hover {
+          text-shadow: 1px 0 0 currentColor;
+        }
+      }
+    }
+  }
 }
 
 .hero-section {
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-around;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
 }
 
 .hero-text {
-    font-size: 3rem;
-    color: white;
-    margin: 0 auto;
-    text-shadow: 1px 0 0 black;
+  font-size: 3rem;
+  color: white;
+  margin: 0 auto;
+  text-shadow: 1px 0 0 black;
 }
 
 .hero-button {
-    font-size: 1.3rem;
-    color: black;
-    margin: 0 auto;
-    transition: font-size 0.2s ease;
-    height: 55px;
-    text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+  margin: 0 auto;
+  transition: font-size 0.2s ease;
+  height: 55px;
+  text-decoration: none;
 }
 
 .hero-button:hover {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
-
 
 /* TODO move these to components, with the fonts */
 
 .regular-button {
-    background-color: #BBE853;
-    border: 1px solid black;
-    border-radius: 30px;
-    padding: 15px 60px;
-    filter: drop-shadow(-1px -1px 9px #000000);
+  background-color: #bbe853;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 15px 60px;
+  filter: drop-shadow(-1px -1px 9px #000000);
+  text-decoration: none;
+  color: black;
 }
 
 .regular-button:hover {
-    cursor: pointer;
-    background-color: #BBE222;
-    filter: drop-shadow(2px 2px 12px #000000);
+  cursor: pointer;
+  background-color: #bbe222;
+  filter: drop-shadow(2px 2px 12px #000000);
 }
-
-
-
-
-

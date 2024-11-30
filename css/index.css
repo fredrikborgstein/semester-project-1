@@ -1,145 +1,288 @@
-
 /* Styling for index.html */
 
 .hero-section {
-    position: relative;
-    background: url("../assets/images/science2.jpg") no-repeat center/cover;
-    background-position: center 46%;
+  position: relative;
+  background: url("../assets/images/science2.jpg") no-repeat center/cover;
+  background-position: center 46%;
 }
 
 /* Adding a filter on top of the bg-image to ensure the text is readable */
 
 .hero-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
 .hero-section > * {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 #events-section {
-    background: var(--var-blue-bg);
-    color: white;
+  background: var(--var-blue-bg);
+  color: white;
+}
 
-    h2 {
-        font-size: 2.4rem;
-        text-align:center;
-        padding-top: 40px;
-        padding-bottom: 45px;
-    }
+h2 {
+  font-size: 2.4rem;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 45px;
 }
 
 #event-cards-container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin: 40px auto;
-    padding: 100px 0;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 100px 0;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .event-card {
-    height: 240px;
-    width: 340px;
-    position: relative;
+  height: 240px;
+  width: 340px;
+  position: relative;
 
-    border: 1px solid black;
-    filter: drop-shadow(-1px -1px 9px #000000);
+  border: 1px solid black;
+  filter: drop-shadow(-1px -1px 9px #000000);
 
-    &.event-card-1 {
-        background: var(--var-card-purple);
-    }
-    &.event-card-2 {
-        background: var(--var-card-blue);
-    }
-    &.event-card-3 {
-        background: var(--var-card-yellow);
-    }
-    &.event-card-4 {
-        background: var(--var-card-green);
-    }
+  &.event-card-1 {
+    background: var(--var-card-purple);
+  }
+  &.event-card-2 {
+    background: var(--var-card-blue);
+  }
+  &.event-card-3 {
+    background: var(--var-card-yellow);
+  }
+  &.event-card-4 {
+    background: var(--var-card-green);
+  }
 }
 
 .event-card-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    position: absolute;
-    transform: translate(60%, -50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  position: absolute;
+  transform: translate(60%, -50%);
 
-    &.event-1 {
-        background: url("../assets/images/science3.jpg") no-repeat center/cover;
-    }
-    &.event-2 {
-        background: url("../assets/images/image2.jpg") no-repeat center/cover;
-    }
-    &.event-3 {
-        background: url("../assets/images/dinosaur1.jpg") no-repeat center/cover;
-    }
-    &.event-4 {
-        background: url("../assets/images/children1.jpg") no-repeat center/cover;
-    }
+  &.event-1 {
+    background: url("../assets/images/science3.jpg") no-repeat center/cover;
+  }
+  &.event-2 {
+    background: url("../assets/images/image2.jpg") no-repeat center/cover;
+  }
+  &.event-3 {
+    background: url("../assets/images/dinosaur1.jpg") no-repeat center/cover;
+  }
+  &.event-4 {
+    background: url("../assets/images/children1.jpg") no-repeat center/cover;
+  }
 }
 
 .event-card-arrow {
-    width:100px;
-    height: 80px;
-    position: absolute;
-    transform: translateY(295%) translateX(110%) rotate(180deg);
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  transform: translateY(295%) translateX(110%) rotate(180deg);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 
-    &.arrow-1 {
-        background: var(--var-card-purple);
-    }
-    &.arrow-2 {
-        background: var(--var-card-blue);
-    }
-    &.arrow-3 {
-        background: var(--var-card-yellow);
-    }
-    &.arrow-4 {
-        background: var(--var-card-green);
-    }
+  &.arrow-1 {
+    background: var(--var-card-purple);
+  }
+  &.arrow-2 {
+    background: var(--var-card-blue);
+  }
+  &.arrow-3 {
+    background: var(--var-card-yellow);
+  }
+  &.arrow-4 {
+    background: var(--var-card-green);
+  }
 }
 
 .event-card-info {
-    position: absolute;
-    transform: translateY(95%);
+  position: absolute;
+  transform: translateY(95%);
 
-    h3 {
-      text-align: center;
-        padding-bottom: 4px;
-    }
-    p {
-        padding:10px 10px;
-    }
-    &.event-info-1 {
-        color: black;
-    }
+  h3 {
+    text-align: center;
+    padding-bottom: 4px;
+  }
+  p {
+    padding: 10px 10px;
+    font-size: 0.8rem;
+  }
+  &.event-info-1 {
+    color: black;
+  }
 }
 
 .event-card-footer {
-    position: absolute;
-    bottom: 2px;
-    left: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    gap: 120px;
-    font-size: 0.9rem;
-
-    &.event-footer-1 {
-        color: black;
-    }
+  position: absolute;
+  bottom: 2px;
+  left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  gap: 120px;
+  font-size: 0.9rem;
+  color: black;
+  font-size: 0.75rem;
 }
 
+/* Exhibitions Section */
 
+#exhibit-section {
+  background: var(--var-salmon-bg);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  #exhibit-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 80%;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .exhibit-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    filter: drop-shadow(-1px -1px 9px #000000);
+    color: black;
+  }
+
+  .ex-card-1 {
+    background: var(--var-card-purple);
+  }
+  .ex-card-2 {
+    background: var(--var-card-blue);
+  }
+  .ex-card-3 {
+    background: var(--var-card-yellow);
+  }
+  .ex-card-4 {
+    background: var(--var-card-green);
+  }
+
+  .figure-1 {
+  }
+
+  .exhibit-figure {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background: red;
+    align-self: center;
+    margin-top: 20px;
+  }
+}
+
+/* News section */
+
+#news-section {
+  background: var(--var-blue-bg);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    color: white;
+  }
+
+  #news-container {
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 80%;
+    flex-wrap: wrap;
+
+    .news-side {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      margin: 0 auto;
+      color: white;
+      width: 50%;
+      position: relative;
+
+      article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+
+        a {
+          width: 40%;
+          text-align: center;
+          margin: 0 auto;
+        }
+      }
+
+      h3 {
+        font-size: 1.8rem;
+        text-align: center;
+      }
+
+      .subheading {
+        font-size: 1rem;
+        text-align: center;
+      }
+
+      .news-image {
+        margin: 30px auto;
+        width: 70%;
+        height: 300px;
+        border-radius: 10px;
+
+        &.news-image-1 {
+          background: url("../assets/images/science3.jpg") no-repeat
+            center/cover;
+        }
+        &.news-image-2 {
+          background: url("../assets/images/image2.jpg") no-repeat center/cover;
+        }
+      }
+
+      .news-content {
+        margin-bottom: 30px;
+        width: 80%;
+        margin: 30px auto;
+      }
+
+      &.left-news-side {
+        border-right: 1px solid white;
+      }
+    }
+  }
+}
