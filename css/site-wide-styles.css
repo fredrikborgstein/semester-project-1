@@ -73,6 +73,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: var(--var-salmon-bg);
+}
+
 /* Header styles */
 header {
   max-height: 150px;
@@ -133,9 +137,26 @@ footer {
   background: var(--var-blue-bg);
   height: 300px;
 
+  .copy-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 80px;
+
+    .fa-hippo {
+      font-size: 2rem;
+      color: var(--var-card-green);
+    }
+
+    .fa-otter {
+      font-size: 2rem;
+      color: #654321;
+    }
+  }
+
   h3 {
     color: white;
-    padding-top: 80px;
+
     text-align: center;
   }
 

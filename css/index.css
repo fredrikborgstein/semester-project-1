@@ -164,6 +164,11 @@ h2 {
     width: 80%;
     gap: 20px;
     flex-wrap: wrap;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
   }
 
   .exhibit-card {
@@ -191,9 +196,6 @@ h2 {
     background: var(--var-card-green);
   }
 
-  .figure-1 {
-  }
-
   .exhibit-figure {
     width: 250px;
     height: 250px;
@@ -201,6 +203,19 @@ h2 {
     background: red;
     align-self: center;
     margin-top: 20px;
+
+    &.figure-1 {
+      background: url("../assets/images/children1.jpg") no-repeat center/cover;
+    }
+    &.figure-2 {
+      background: url("../assets/images/science2.jpg") no-repeat center/cover;
+    }
+    &.figure-3 {
+      background: url("../assets/images/bot1.jpg") no-repeat center/cover;
+    }
+    &.figure-4 {
+      background: url("../assets/images/dino2.jpg") no-repeat center/cover;
+    }
   }
 }
 
@@ -315,6 +330,7 @@ h2 {
       img {
         max-width: 600px;
         border-radius: 10px;
+        content: cover;
       }
 
       h3 {
