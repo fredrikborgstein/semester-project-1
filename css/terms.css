@@ -1,0 +1,37 @@
+footer {
+  background: var(--var-salmon-bg) !important;
+}
+
+main {
+  background: var(--var-blue-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    margin-top: 40px;
+  }
+
+  p {
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  figure {
+    margin-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 0 auto;
+  }
+
+  a {
+    margin-bottom: 40px;
+  }
+}
