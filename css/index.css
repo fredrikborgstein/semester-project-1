@@ -420,7 +420,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    gap: 40px;
+    gap: 30px;
 
     .events-card:nth-child(4n + 1) {
       background: var(--var-card-purple);
