@@ -1,0 +1,57 @@
+h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+#about-us-hero {
+  background: var(--var-blue-bg);
+  padding: 40px 0;
+
+  h2 {
+    color: white;
+  }
+
+  #about-us-hero-images {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 0;
+
+    img {
+      width: 450px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  }
+}
+
+#about-us {
+  padding: 40px 0;
+
+  .container {
+    justify-content: space-around !important;
+  }
+
+  #about-us-text {
+    margin: 0 auto;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+      padding-bottom: 20px;
+    }
+  }
+
+  #about-us-image {
+    img {
+      width: 450px;
+      height: 650px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  }
+}
