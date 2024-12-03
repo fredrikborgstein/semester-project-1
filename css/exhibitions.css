@@ -80,3 +80,179 @@
     }
   }
 }
+
+#botanical-exhibit {
+  background: var(--var-blue-bg);
+  margin: 0 auto;
+  padding-bottom: 100px;
+
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 40px 0;
+    color: white;
+  }
+
+  .botanical-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    .botanical-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 300px;
+      gap: 20px;
+      color: white;
+
+      img {
+        width: 250px;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+#dinosaur-exhibit {
+  padding: 60px 0;
+
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 40px 0;
+  }
+
+  .dinosaur-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    .dinosaur-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 350px;
+      height: 450px;
+      gap: 20px;
+      border: 1px solid black;
+      border-radius: 20px;
+      filter: drop-shadow(-1px -1px 3px #000000);
+
+      h3 {
+        font-size: 1.3rem;
+        padding-top: 20px;
+        padding-bottom: 5px;
+      }
+
+      img {
+        width: 240px;
+        height: 130px;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+
+      p {
+        padding: 20px;
+      }
+
+      &.dino-1 {
+        background: var(--var-card-green);
+      }
+      &.dino-2 {
+        background: var(--var-card-purple);
+      }
+      &.dino-3 {
+        background: var(--var-card-yellow);
+      }
+      &.dino-4 {
+        background: var(--var-card-yellow);
+      }
+      &.dino-5 {
+        background: var(--var-card-blue);
+      }
+      &.dino-6 {
+        background: var(--var-card-green);
+      }
+    }
+  }
+}
+
+#modern-science {
+  background: var(--var-blue-bg);
+  padding: 60px 0;
+
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 40px 0;
+    color: white;
+  }
+
+  .modern-science-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+
+    .left-container {
+      width: 45%;
+      margin: 0 auto;
+
+      h3 {
+        font-size: 1.5rem;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        color: white;
+        text-align: center;
+      }
+
+      p {
+        color: white;
+        width: 80%;
+        margin: 0 auto;
+      }
+    }
+
+    .right-container {
+      width: 45%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+
+      img {
+        display: inline-block;
+        width: 500px;
+        height: 150px;
+        object-fit: cover;
+        margin: 0;
+        padding: 0;
+
+        &.first {
+          border-radius: 20px 20px 0 0;
+        }
+        &.last {
+          border-radius: 0 0 20px 20px;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background: var(--var-salmon-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+
+  @media and prefers-reduced-motion {
+    scroll-behavior: auto;
+  }
+}
