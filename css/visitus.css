@@ -68,3 +68,12 @@ h2 {
     }
   }
 }
+
+.mailto {
+  text-decoration: none;
+  color: black;
+
+  &:hover {
+    color: var(--var-card-purple);
+  }
+}
