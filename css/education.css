@@ -100,14 +100,6 @@
   }
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  width: 80%;
-}
-
 .education-card:nth-child(4n + 1) a {
   background: var(--var-card-blue) !important;
 }
