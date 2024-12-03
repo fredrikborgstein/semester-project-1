@@ -30,6 +30,12 @@ h2 {
 #about-us {
   padding: 40px 0;
 
+  h3 {
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
   .container {
     justify-content: space-around !important;
   }
