@@ -50,9 +50,13 @@ h2 {
   height: 240px;
   width: 340px;
   position: relative;
-
   border: 1px solid black;
   filter: drop-shadow(-1px -1px 9px #000000);
+
+  @media (max-width: 768px) {
+    width: 340px;
+    margin-bottom: 150px;
+  }
 
   &.event-card-1 {
     background: var(--var-card-purple);
@@ -107,6 +111,10 @@ h2 {
   }
   &.arrow-4 {
     background: var(--var-card-green);
+  }
+
+  @media (max-width: 768px) {
+    transform: translateY(295%) translateX(120%) rotate(180deg);
   }
 }
 
@@ -183,6 +191,13 @@ h2 {
     color: black;
   }
 
+  @media (max-width: 768px) {
+    .exhibit-card {
+      width: 340px;
+      margin-bottom: 20px;
+    }
+  }
+
   .ex-card-1 {
     background: var(--var-card-purple);
   }
@@ -240,6 +255,11 @@ h2 {
     width: 80%;
     flex-wrap: wrap;
 
+    @media (max-width: 768px) {
+      flex-direction: column;
+      width: 100%;
+    }
+
     .news-side {
       display: flex;
       flex-direction: column;
@@ -249,6 +269,10 @@ h2 {
       color: white;
       width: 50%;
       position: relative;
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
 
       article {
         display: flex;
@@ -261,17 +285,30 @@ h2 {
           width: 40%;
           text-align: center;
           margin: 0 auto;
+
+          @media (max-width: 768px) {
+            width: 60%;
+            margin-bottom: 30px;
+          }
         }
       }
 
       h3 {
         font-size: 1.8rem;
         text-align: center;
+
+        @media (max-width: 768px) {
+          font-size: 1.5rem;
+        }
       }
 
       .subheading {
         font-size: 1rem;
         text-align: center;
+
+        @media (max-width: 768px) {
+          font-size: 0.8rem;
+        }
       }
 
       .news-image {
@@ -279,6 +316,11 @@ h2 {
         width: 70%;
         height: 300px;
         border-radius: 10px;
+
+        @media (max-width: 768px) {
+          margin: 10px auto;
+          width: 80%;
+        }
 
         &.news-image-1 {
           background: url("../assets/images/science3.jpg") no-repeat
@@ -297,6 +339,10 @@ h2 {
 
       &.left-news-side {
         border-right: 1px solid white;
+
+        @media (max-width: 768px) {
+          border-right: none;
+        }
       }
     }
   }
@@ -310,6 +356,10 @@ h2 {
   h2 {
     color: white;
     padding-bottom: 40px;
+
+    @media (max-width: 768px) {
+      font-size: 1.7rem;
+    }
   }
 
   #educational-container {
@@ -319,6 +369,11 @@ h2 {
     margin: 0 auto;
     padding: 40px 0;
     width: 80%;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      width: 100%;
+    }
 
     .edu-side {
       with: 100%;
@@ -331,6 +386,11 @@ h2 {
         max-width: 600px;
         border-radius: 10px;
         content: cover;
+
+        @media (max-width: 768px) {
+          max-width: 90%;
+          margin: 0 auto;
+        }
       }
 
       h3 {
@@ -350,6 +410,12 @@ h2 {
         padding: 12px 50px;
         width: 30%;
         margin: 0 auto;
+
+        @media (max-width: 768px) {
+          width: 50%;
+          text-align: center;
+          margin: 10px auto;
+        }
       }
     }
   }
