@@ -203,7 +203,7 @@ header {
     position: absolute;
     top: 20px;
     right: 20px;
-    font-size: 2rem;
+    font-size: 2.4rem;
     color: black;
     cursor: pointer;
     background: var(--var-salmon-bg);
