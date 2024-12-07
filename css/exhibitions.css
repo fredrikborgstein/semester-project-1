@@ -13,6 +13,10 @@
     margin-top: 30px;
     gap: 40px;
 
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+
     .jumplink-wrapper {
       display: flex;
       flex-direction: column;
@@ -40,7 +44,7 @@
 
 #space-exploration {
   background: var(--var-salmon-bg);
-  width: 80vw;
+  width: 100%;
   margin: 0 auto;
   padding-bottom: 40px;
 
@@ -57,20 +61,39 @@
     align-items: center;
     gap: 40px;
 
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 0px;
+      margin: 0 auto;
+    }
+
     .left-container {
       margin: 0 auto;
       width: 45%;
-      position: relative;
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
 
       .space-ex-img {
         width: 250px;
         border-radius: 20px;
+
+        @media (max-width: 768px) {
+          width: 300px;
+          height: 200px;
+          object-fit: cover;
+        }
       }
     }
 
     .right-container {
       width: 45%;
       margin: 0 auto;
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
 
       h3 {
         font-size: 1.5rem;
@@ -144,6 +167,10 @@
       border-radius: 20px;
       filter: drop-shadow(-1px -1px 3px #000000);
 
+      @media (max-width: 768px) {
+        height: 500px;
+      }
+
       h3 {
         font-size: 1.3rem;
         padding-top: 20px;
@@ -201,9 +228,17 @@
     align-items: center;
     gap: 40px;
 
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+
     .left-container {
       width: 45%;
       margin: 0 auto;
+
+      @media (max-width: 768px) {
+        width: 90%;
+      }
 
       h3 {
         font-size: 1.5rem;
@@ -217,6 +252,10 @@
         color: white;
         width: 80%;
         margin: 0 auto;
+
+        @media (max-width: 768px) {
+          width: 100%;
+        }
       }
     }
 
@@ -226,6 +265,10 @@
       display: flex;
       flex-direction: column;
 
+      @media (max-width: 768px) {
+        width: 90%;
+      }
+
       img {
         display: inline-block;
         width: 500px;
@@ -233,6 +276,11 @@
         object-fit: cover;
         margin: 0;
         padding: 0;
+
+        @media (max-width: 768px) {
+          width: 300px;
+          height: 100px;
+        }
 
         &.first {
           border-radius: 20px 20px 0 0;
