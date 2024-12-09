@@ -2,7 +2,7 @@
 
 .hero-section {
   position: relative;
-  background: url("../assets/images/science2.jpg") no-repeat center/cover;
+  background: url("../assets/images/science2.webp") no-repeat center/cover;
   background-position: center 46%;
 }
 
@@ -83,16 +83,16 @@ h2 {
   transform: translate(60%, -50%);
 
   &.event-1 {
-    background: url("../assets/images/science3.jpg") no-repeat center/cover;
+    background: url("../assets/images/science3.webp") no-repeat center/cover;
   }
   &.event-2 {
-    background: url("../assets/images/image2.jpg") no-repeat center/cover;
+    background: url("../assets/images/image2.webp") no-repeat center/cover;
   }
   &.event-3 {
-    background: url("../assets/images/dinosaur1.jpg") no-repeat center/cover;
+    background: url("../assets/images/dinosaur1.webp") no-repeat center/cover;
   }
   &.event-4 {
-    background: url("../assets/images/children1.jpg") no-repeat center/cover;
+    background: url("../assets/images/children1.webp") no-repeat center/cover;
   }
 }
 
@@ -229,16 +229,16 @@ h2 {
     margin-top: 20px;
 
     &.figure-1 {
-      background: url("../assets/images/children1.jpg") no-repeat center/cover;
+      background: url("../assets/images/children1.webp") no-repeat center/cover;
     }
     &.figure-2 {
-      background: url("../assets/images/science2.jpg") no-repeat center/cover;
+      background: url("../assets/images/science2.webp") no-repeat center/cover;
     }
     &.figure-3 {
-      background: url("../assets/images/bot1.jpg") no-repeat center/cover;
+      background: url("../assets/images/bot1.webp") no-repeat center/cover;
     }
     &.figure-4 {
-      background: url("../assets/images/dino2.jpg") no-repeat center/cover;
+      background: url("../assets/images/dino2.webp") no-repeat center/cover;
     }
   }
 }
@@ -340,11 +340,11 @@ h2 {
         }
 
         &.news-image-1 {
-          background: url("../assets/images/science3.jpg") no-repeat
+          background: url("../assets/images/science3.webp") no-repeat
             center/cover;
         }
         &.news-image-2 {
-          background: url("../assets/images/image2.jpg") no-repeat center/cover;
+          background: url("../assets/images/image2.webp") no-repeat center/cover;
         }
       }
 
