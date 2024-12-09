@@ -88,7 +88,7 @@ header {
   gap: 30px;
   position: relative;
 
-  @media screen and (max-width: 810px) {
+  @media screen and (max-width: 1080px) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -100,12 +100,16 @@ header {
   #header-info {
     display: flex;
 
+    @media screen and (max-width: 1080px) {
+      margin-top: 30px;
+    }
+
     #header-logo img {
       width: 100px;
       justify-self: flex-start;
       margin-top: 20px;
 
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 1080px) {
         margin-top: 15px;
       }
     }
@@ -118,6 +122,11 @@ header {
         margin: 10px 0;
         padding-bottom: 20px;
         font-size: 1.8rem;
+      }
+
+      @media screen and (max-width: 1080px) {
+        margin: 0 0;
+        margin-top: 40px;
       }
     }
 
@@ -142,7 +151,7 @@ header {
       margin-top: 50px;
       gap: 20px;
 
-      @media screen and (max-width: 810px) {
+      @media screen and (max-width: 1080px) {
         margin-bottom: 20px;
         margin-top: 0;
       }

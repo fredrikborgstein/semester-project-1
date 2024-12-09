@@ -77,6 +77,13 @@ h2 {
       height: 650px;
       object-fit: cover;
       border-radius: 10px;
+
+      @media (max-width: 1080px) {
+        width: 400px;
+        height: 500px;
+        object-fit: cover;
+        margin-top: 20px;
+      }
     }
   }
 }

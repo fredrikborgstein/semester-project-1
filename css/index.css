@@ -57,6 +57,10 @@ h2 {
     margin-bottom: 150px;
   }
 
+  @media (max-width: 1080px) {
+    margin-bottom: 150px;
+  }
+
   &.event-card-1 {
     background: var(--var-card-purple);
   }
@@ -112,11 +116,7 @@ h2 {
     background: var(--var-card-green);
   }
 
-  @media (max-width: 768px) {
-    transform: translateY(295%) translateX(120%) rotate(180deg);
-  }
-
-  @media (max-width: 810px) {
+  @media (max-width: 1080px) {
     transform: translateY(295%) translateX(120%) rotate(180deg);
   }
 }
@@ -175,6 +175,12 @@ h2 {
     width: 100%;
     gap: 15px;
     flex-wrap: wrap;
+
+    @media (max-width: 1080px) {
+      width: 100%;
+      justify-content: center;
+      gap: 30px;
+    }
 
     a {
       text-decoration: none;
@@ -297,6 +303,10 @@ h2 {
             width: 60%;
             margin-bottom: 30px;
           }
+
+          @media (max-width: 1080px) {
+            width: 50%;
+          }
         }
       }
 
@@ -383,7 +393,7 @@ h2 {
     }
 
     .edu-side {
-      with: 100%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -397,6 +407,10 @@ h2 {
         @media (max-width: 810px) {
           max-width: 90%;
           margin: 0 auto;
+        }
+
+        @media (max-width: 1080px) {
+          max-width: 100%;
         }
       }
 
@@ -422,6 +436,10 @@ h2 {
           width: 50%;
           text-align: center;
           margin: 10px auto;
+        }
+
+        @media (max-width: 1080px) {
+          width: 40%;
         }
       }
     }

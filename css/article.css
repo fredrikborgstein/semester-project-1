@@ -34,6 +34,16 @@ main {
         height: 100%;
       }
     }
+
+    @media (max-width: 1080px) {
+      padding-left: 0px;
+      width: 90%;
+      img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+      }
+    }
   }
 
   .article-section {
@@ -41,7 +51,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
 
     @media (max-width: 768px) {
       width: 100%;
@@ -57,11 +67,22 @@ main {
       font-size: 1rem;
       color: white;
       text-align: left;
+
+      @media (max-width: 1080px) {
+        width: full;
+      }
     }
 
     .content-container {
       width: 70%;
       margin: 0 auto;
+    }
+
+    @media (max-width: 1080px) {
+      .content-container {
+        width: 90%;
+        margin: 0 auto;
+      }
     }
 
     .article-content {
