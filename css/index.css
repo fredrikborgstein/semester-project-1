@@ -53,8 +53,7 @@ h2 {
   border: 1px solid black;
   filter: drop-shadow(-1px -1px 9px #000000);
 
-  @media (max-width: 768px) {
-    width: 340px;
+  @media (max-width: 810px) {
     margin-bottom: 150px;
   }
 
@@ -114,6 +113,10 @@ h2 {
   }
 
   @media (max-width: 768px) {
+    transform: translateY(295%) translateX(120%) rotate(180deg);
+  }
+
+  @media (max-width: 810px) {
     transform: translateY(295%) translateX(120%) rotate(180deg);
   }
 }
@@ -191,7 +194,7 @@ h2 {
     color: black;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 810px) {
     .exhibit-card {
       width: 340px;
       margin-bottom: 20px;
@@ -257,6 +260,10 @@ h2 {
 
     @media (max-width: 768px) {
       flex-direction: column;
+      width: 100%;
+    }
+
+    @media (max-width: 810px) {
       width: 100%;
     }
 
@@ -370,7 +377,7 @@ h2 {
     padding: 40px 0;
     width: 80%;
 
-    @media (max-width: 768px) {
+    @media (max-width: 810px) {
       flex-direction: column;
       width: 100%;
     }
@@ -387,7 +394,7 @@ h2 {
         border-radius: 10px;
         content: cover;
 
-        @media (max-width: 768px) {
+        @media (max-width: 810px) {
           max-width: 90%;
           margin: 0 auto;
         }

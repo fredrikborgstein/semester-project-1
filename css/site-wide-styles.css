@@ -88,10 +88,13 @@ header {
   gap: 30px;
   position: relative;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 810px) {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     max-height: 200px;
+    gap: 10px;
   }
 
   #header-info {
@@ -138,6 +141,11 @@ header {
       align-content: center;
       margin-top: 50px;
       gap: 20px;
+
+      @media screen and (max-width: 810px) {
+        margin-bottom: 20px;
+        margin-top: 0;
+      }
 
       li {
         list-style: none;

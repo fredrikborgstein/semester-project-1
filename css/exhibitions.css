@@ -167,7 +167,7 @@
       border-radius: 20px;
       filter: drop-shadow(-1px -1px 3px #000000);
 
-      @media (max-width: 768px) {
+      @media (max-width: 810px) {
         height: 500px;
       }
 
@@ -228,7 +228,7 @@
     align-items: center;
     gap: 40px;
 
-    @media (max-width: 768px) {
+    @media (max-width: 810px) {
       flex-direction: column;
     }
 
@@ -236,7 +236,7 @@
       width: 45%;
       margin: 0 auto;
 
-      @media (max-width: 768px) {
+      @media (max-width: 810px) {
         width: 90%;
       }
 
@@ -253,7 +253,7 @@
         width: 80%;
         margin: 0 auto;
 
-        @media (max-width: 768px) {
+        @media (max-width: 810px) {
           width: 100%;
         }
       }
@@ -265,7 +265,7 @@
       display: flex;
       flex-direction: column;
 
-      @media (max-width: 768px) {
+      @media (max-width: 810px) {
         width: 90%;
       }
 
@@ -280,6 +280,11 @@
         @media (max-width: 768px) {
           width: 300px;
           height: 100px;
+        }
+
+        @media (max-width: 810px) {
+          width: 600px;
+          height: 140px;
         }
 
         &.first {

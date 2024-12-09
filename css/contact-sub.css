@@ -4,6 +4,12 @@ main {
   h1 {
     font-size: 2.3rem;
     padding: 40px 0 !important;
+
+    @media (max-width: 810px) {
+      font-size: 2rem;
+      width: 90%;
+      margin: 0 auto;
+    }
   }
 
   p {
