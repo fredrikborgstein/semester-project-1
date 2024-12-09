@@ -140,8 +140,8 @@ h2 {
 
 .event-card-footer {
   position: absolute;
-  bottom: 2px;
-  left: 20px;
+  bottom: 4px;
+  left: 25%;
   display: flex;
   justify-content: space-between;
   align-content: center;
