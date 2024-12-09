@@ -24,6 +24,17 @@ h2 {
       object-fit: cover;
       border-radius: 10px;
     }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 100%;
+        height: 300px;
+      }
+    }
   }
 }
 
@@ -46,6 +57,10 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
 
     p {
       padding-bottom: 20px;

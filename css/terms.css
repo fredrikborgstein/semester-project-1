@@ -2,12 +2,20 @@ footer {
   background: var(--var-salmon-bg) !important;
 }
 
-main {
+#legal {
   background: var(--var-blue-bg);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 768px) {
+    p {
+      font-size: 1rem;
+      margin-bottom: 10px;
+      width: 80%;
+    }
+  }
 
   h1 {
     margin-top: 40px;
