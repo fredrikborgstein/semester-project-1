@@ -23,42 +23,6 @@
   font-style: normal;
 }
 
-.merriweather-bold {
-  font-family: "Merriweather", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.merriweather-black {
-  font-family: "Merriweather", serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.merriweather-light-italic {
-  font-family: "Merriweather", serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.merriweather-regular-italic {
-  font-family: "Merriweather", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.merriweather-bold-italic {
-  font-family: "Merriweather", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.merriweather-black-italic {
-  font-family: "Merriweather", serif;
-  font-weight: 900;
-  font-style: italic;
-}
-
 .jockey-one-regular {
   font-family: "Jockey One", sans-serif;
   font-weight: 400;
@@ -105,12 +69,13 @@ header {
     }
 
     #header-logo img {
-      width: 100px;
+      width: 140px;
       justify-self: flex-start;
-      margin-top: 20px;
+      margin-top: 2px;
 
       @media screen and (max-width: 1080px) {
         margin-top: 15px;
+        width: 100px;
       }
     }
 
@@ -119,7 +84,7 @@ header {
       font-size: 2rem;
 
       @media screen and (max-width: 768px) {
-        margin: 10px 0;
+        margin-top: 0 !important;
         padding-bottom: 20px;
         font-size: 1.8rem;
       }
