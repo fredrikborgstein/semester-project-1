@@ -224,7 +224,6 @@ h2 {
   }
   .ex-card-2 {
     background: var(--var-card-blue);
-    color: white;
   }
   .ex-card-3 {
     background: var(--var-card-yellow);
@@ -527,6 +526,7 @@ h2 {
 
     .events-card:nth-child(4n + 2) {
       background: var(--var-card-blue);
+      color: black;
     }
 
     .events-card:nth-child(4n + 3) {
