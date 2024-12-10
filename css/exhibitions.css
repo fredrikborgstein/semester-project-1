@@ -210,7 +210,6 @@
       }
       &.dino-5 {
         background: var(--var-card-blue);
-        color: white;
       }
       &.dino-6 {
         background: var(--var-card-green);
@@ -319,6 +318,18 @@
 
 footer {
   background: var(--var-salmon-bg);
+
+  h3 {
+    color: black;
+  }
+
+  a {
+    color: black;
+  }
+
+  li {
+    color: black;
+  }
 }
 
 html {
