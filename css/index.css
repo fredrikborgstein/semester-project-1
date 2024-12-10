@@ -345,19 +345,12 @@ h2 {
         margin: 30px auto;
         width: 70%;
         height: 300px;
+        object-fit: cover;
         border-radius: 10px;
 
         @media (max-width: 768px) {
           margin: 10px auto;
           width: 80%;
-        }
-
-        &.news-image-1 {
-          background: url("../assets/images/science3.webp") no-repeat
-            center/cover;
-        }
-        &.news-image-2 {
-          background: url("../assets/images/image2.webp") no-repeat center/cover;
         }
       }
 
