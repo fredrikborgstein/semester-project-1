@@ -8,10 +8,12 @@
 
   h1 {
     font-size: 4rem;
+    color: black;
   }
 
   h2 {
     font-size: 2rem;
+    color: black;
   }
 
   @media (max-width: 810px) {
@@ -72,15 +74,18 @@
     color: white;
     text-align: center;
     padding-bottom: 20px;
-    font-size: 2rem;
+    margin-top: 40px;
+    font-size: 2.4rem !important;
   }
 
   .education-card:nth-child(4n + 1) {
     background: var(--var-card-purple);
+    color: white;
   }
 
   .education-card:nth-child(4n + 2) {
     background: var(--var-card-blue);
+    color: white;
   }
 
   .education-card:nth-child(4n + 3) {
@@ -125,7 +130,6 @@
     }
 
     a {
-      color: var(--var-blue-bg);
       text-decoration: none;
       font-weight: bold;
     }
@@ -134,10 +138,12 @@
 
 .education-card:nth-child(4n + 1) a {
   background: var(--var-card-blue) !important;
+  color: white;
 }
 
 .education-card:nth-child(4n + 2) a {
   background: var(--var-card-purple) !important;
+  color: white;
 }
 
 .education-card:nth-child(4n + 3) a {

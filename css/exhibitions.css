@@ -200,6 +200,7 @@
       }
       &.dino-2 {
         background: var(--var-card-purple);
+        color: white;
       }
       &.dino-3 {
         background: var(--var-card-yellow);
@@ -209,6 +210,7 @@
       }
       &.dino-5 {
         background: var(--var-card-blue);
+        color: white;
       }
       &.dino-6 {
         background: var(--var-card-green);

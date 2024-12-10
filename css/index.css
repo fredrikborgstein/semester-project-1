@@ -134,6 +134,10 @@ h2 {
     font-size: 0.8rem;
   }
   &.event-info-1 {
+    color: white;
+  }
+
+  &.event-info-2 {
     color: black;
   }
 }
@@ -141,14 +145,21 @@ h2 {
 .event-card-footer {
   position: absolute;
   bottom: 4px;
-  left: 25%;
+  margin-left: 3px;
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-content: flex-start;
   gap: 120px;
-  font-size: 0.9rem;
-  color: black;
-  font-size: 0.75rem;
+  font-size: 1rem;
+  text-align: left;
+
+  &.event-footer-1 {
+    color: white;
+  }
+
+  &.event-footer-2 {
+    color: black;
+  }
 }
 
 /* Exhibitions Section */
@@ -209,9 +220,11 @@ h2 {
 
   .ex-card-1 {
     background: var(--var-card-purple);
+    color: white;
   }
   .ex-card-2 {
     background: var(--var-card-blue);
+    color: white;
   }
   .ex-card-3 {
     background: var(--var-card-yellow);
@@ -513,6 +526,7 @@ h2 {
     justify-content: center;
     align-content: center;
     gap: 30px;
+    color: white;
 
     .events-card:nth-child(4n + 1) {
       background: var(--var-card-purple);
@@ -524,10 +538,12 @@ h2 {
 
     .events-card:nth-child(4n + 3) {
       background: var(--var-card-yellow);
+      color: black;
     }
 
     .events-card:nth-child(4n + 4) {
       background: var(--var-card-green);
+      color: black;
     }
 
     .events-card {
