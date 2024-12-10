@@ -313,12 +313,12 @@ h2 {
           margin: 0 auto;
 
           @media (max-width: 768px) {
-            width: 60%;
+            width: 60% !important;
             margin-bottom: 30px;
           }
 
           @media (max-width: 1080px) {
-            width: 50%;
+            width: 60%;
           }
         }
       }
@@ -435,19 +435,19 @@ h2 {
         color: black;
         font-size: 1rem;
         padding: 12px 50px;
-        width: 30%;
+        width: 40%;
         margin: 0 auto;
         text-align: center;
         margin-top: 20px;
 
         @media (max-width: 768px) {
-          width: 50%;
+          width: 80% !important;
           text-align: center;
           margin: 10px auto;
         }
 
         @media (max-width: 1080px) {
-          width: 40%;
+          width: 70%;
         }
       }
     }
