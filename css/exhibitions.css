@@ -29,7 +29,7 @@
         color: white;
         font-size: 1.5rem;
         text-align: center;
-        filter: drop-shadow(-1px -1px 9px #000000);
+        filter: var(--var-dropshadow);
 
         img {
           margin-top: 20px;
@@ -166,7 +166,7 @@
       gap: 20px;
       border: 1px solid black;
       border-radius: 20px;
-      filter: drop-shadow(-1px -1px 3px #000000);
+      filter: var(--var-dropshadow);
 
       @media (max-width: 810px) {
         height: 500px;
