@@ -169,13 +169,19 @@
       filter: var(--var-dropshadow);
 
       @media (max-width: 810px) {
-        height: 500px;
+        height: 580px;
+        width: 370px;
       }
 
       h3 {
         font-size: 1.3rem;
         padding-top: 20px;
         padding-bottom: 5px;
+
+        @media (max-width: 810px) {
+          font-size: 1.5rem;
+          text-align: center;
+        }
       }
 
       img {
@@ -244,9 +250,13 @@
       h3 {
         font-size: 1.5rem;
         padding-top: 20px;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
         color: white;
         text-align: center;
+
+        @media (max-width: 810px) {
+          font-size: 1.2rem;
+        }
       }
 
       p {
@@ -267,7 +277,7 @@
       flex-direction: column;
 
       @media (max-width: 810px) {
-        width: 90%;
+        width: 100%;
       }
 
       img {
@@ -279,7 +289,7 @@
         padding: 0;
 
         @media (max-width: 768px) {
-          width: 300px;
+          width: 300px !important;
           height: 100px;
         }
 
