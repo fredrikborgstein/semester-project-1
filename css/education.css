@@ -85,7 +85,6 @@
 
   .education-card:nth-child(4n + 2) {
     background: var(--var-card-blue);
-    color: white;
   }
 
   .education-card:nth-child(4n + 3) {
@@ -138,7 +137,6 @@
 
 .education-card:nth-child(4n + 1) a {
   background: var(--var-card-blue) !important;
-  color: white;
 }
 
 .education-card:nth-child(4n + 2) a {
@@ -156,4 +154,16 @@
 
 footer {
   background: var(--var-salmon-bg);
+
+  h3 {
+    color: black;
+  }
+
+  a {
+    color: black;
+  }
+
+  li {
+    color: black;
+  }
 }
