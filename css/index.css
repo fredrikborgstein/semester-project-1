@@ -475,6 +475,11 @@ h2 {
     padding: 30px 0;
     width: 80%;
 
+    label {
+      font-size: 1.3rem;
+      color: black;
+    }
+
     /* Trying to get a similar look to the Figma design, used Shadcn as inspiration */
     #sort-by {
       border-radius: 0;
@@ -556,7 +561,8 @@ h2 {
 
       img {
         width: 250px;
-        height: 150px;
+        height: 130px;
+        object-fit: cover;
         border-radius: 20px;
         margin: 0 auto;
         padding: 10px 0px;
