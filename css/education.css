@@ -28,6 +28,18 @@
     }
   }
 
+  @media (min-width: 1300px) {
+    width: 70%;
+    margin: 0 auto;
+    h1 {
+      font-size: 5rem;
+    }
+
+    h2 {
+      font-size: 2.4rem;
+    }
+  }
+
   #education-hero-text {
     padding-top: 40px;
     width: 45%;
@@ -76,6 +88,16 @@
     padding-bottom: 20px;
     margin-top: 40px;
     font-size: 2.4rem !important;
+  }
+
+  @media (min-width: 1300px) {
+    .container {
+      width: 60%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+    }
   }
 
   .education-card:nth-child(4n + 1) {

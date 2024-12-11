@@ -19,6 +19,10 @@ h2 {
   .map {
     margin-bottom: 30px;
     width: 90%;
+
+    @media (min-width: 1300px) {
+      width: 50%;
+    }
   }
 }
 
@@ -28,6 +32,10 @@ h2 {
 
   .container {
     justify-content: space-around !important;
+
+    @media (min-width: 1300px) {
+      width: 50%;
+    }
   }
 
   form {

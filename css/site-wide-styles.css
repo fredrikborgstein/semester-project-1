@@ -74,11 +74,21 @@ header {
     gap: 10px;
   }
 
+  @media screen and (min-width: 1300px) {
+    width: 80%;
+    max-height: 250px;
+    justify-content: space-around;
+  }
+
   #header-info {
     display: flex;
 
     @media screen and (max-width: 1080px) {
       margin-top: 30px;
+    }
+
+    @media screen and (min-width: 1300px) {
+      margin-top: 20px;
     }
 
     #header-logo img {
@@ -121,6 +131,10 @@ header {
 
     @media screen and (max-width: 768px) {
       display: none;
+    }
+
+    @media screen and (min-width: 1300px) {
+      margin-top: 20px;
     }
 
     #header-nav-list {
@@ -287,6 +301,10 @@ footer {
   @media screen and (max-width: 768px) {
     font-size: 2rem;
     margin: 0 10px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    font-size: 4rem;
   }
 }
 
