@@ -27,6 +27,12 @@ h2 {
       height: 250px;
       object-fit: cover;
       border-radius: 10px;
+
+      @media (min-width: 1300px) {
+        width: 600px;
+        height: 400px;
+        object-fit: cover;
+      }
     }
 
     @media (max-width: 810px) {
@@ -53,6 +59,10 @@ h2 {
 
   .container {
     justify-content: space-around !important;
+
+    @media (min-width: 1300px) {
+      width: 50%;
+    }
   }
 
   #about-us-text {

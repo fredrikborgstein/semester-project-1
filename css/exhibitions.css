@@ -67,6 +67,10 @@
       margin: 0 auto;
     }
 
+    @media (min-width: 1300px) {
+      width: 70%;
+    }
+
     .left-container {
       margin: 0 auto;
       width: 45%;
@@ -157,6 +161,10 @@
     align-items: center;
     gap: 40px;
 
+    @media (min-width: 1300px) {
+      width: 60%;
+    }
+
     .dinosaur-card {
       display: flex;
       flex-direction: column;
@@ -238,6 +246,10 @@
 
     @media (max-width: 810px) {
       flex-direction: column;
+    }
+
+    @media (min-width: 1300px) {
+      width: 70%;
     }
 
     .left-container {

@@ -193,6 +193,10 @@ h2 {
       gap: 30px;
     }
 
+    @media (min-width: 1300px) {
+      width: 80%;
+    }
+
     a {
       text-decoration: none;
       color: black;
@@ -397,6 +401,10 @@ h2 {
       width: 100%;
     }
 
+    @media (min-width: 1300px) {
+      width: 70%;
+    }
+
     .edu-side {
       width: 100%;
       display: flex;
@@ -524,6 +532,10 @@ h2 {
     align-content: center;
     gap: 30px;
     color: white;
+
+    @media (min-width: 1300px) {
+      width: 70%;
+    }
 
     .events-card:nth-child(4n + 1) {
       background: var(--var-card-purple);
