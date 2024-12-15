@@ -63,16 +63,6 @@
 
 ---
 
-## Assignment Goals
-
-### Part 1
-
-### Part 2
-
-### Part 3
-
----
-
 ## Accessibility Considerations
 
 - Ensure all images have `alt` text for screen readers.
