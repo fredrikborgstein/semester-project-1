@@ -6,11 +6,6 @@
 
 ### Student: Fredrik Borgstein
 
----
-
-## Assignment Overview
-
-### Key Learning Objectives:
 
 ---
 
